@@ -1,0 +1,26 @@
+
+.containor{
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    width: 500px;
+    background-color: black;
+    border: 2px solid black;
+}
+
+.containor > div{
+    display: flex;
+    flex-direction: row;
+    height: 12.5%;
+    background-color: #696464;
+}
+.containor > div > .col8{
+    background-color: white;
+    width: 12.5%;
+    font-size: 39px;
+}
+.containor > div > .col81{
+    background-color:#696464;
+    width: 12.5%;
+    font-size: 39px;
+}
